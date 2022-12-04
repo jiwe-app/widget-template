@@ -1,6 +1,9 @@
 #!/bin/bash
 
-NAME="${1:-widget}"
+echo -n "Widget name: "
+read s
+
+NAME="${s:-widget}"
 BRANCH="main"
 REPO="https://github.com/jiwe-app/widget-template.git"
 
