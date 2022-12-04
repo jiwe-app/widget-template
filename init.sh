@@ -10,8 +10,8 @@ cd $NAME
 
 # Replace placeholders
 F="WIDGET_NAME"
-find ./  -type f -name "*.swift" | xargs sed -i -e 's/$F/$NAME/g'
-echo $PWD
+find ./  -type f -name "*.swift" | xargs sed -i -e "s/$F/$NAME/g"
+find ./ -name "*.*-e" -delete
 
 # Restart git
 rm -rf .git
