@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo -n "Widget name: "
-read s
+read -p "Widget name: " s
 
 NAME="${s:-widget}"
 BRANCH="main"
