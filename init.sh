@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Widget name: " s < /dev/tty   
+read -p "Widget name: " s   
 
 NAME="${s:-widget}"
 BRANCH="main"
